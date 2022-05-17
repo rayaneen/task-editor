@@ -106,6 +106,9 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.15.0)
+    minitest-rails (7.0.0)
+      minitest (~> 5.10)
+      railties (~> 7.0.0)
     msgpack (1.5.1)
     nio4r (2.5.8)
     nokogiri (1.13.5-x86_64-linux)
@@ -198,6 +201,8 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  minitest
+  minitest-rails (~> 7.0.0)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.0)

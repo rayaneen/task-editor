@@ -72,6 +72,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "minitest-rails", "~> 7.0.0"
+  gem "minitest"
 end
 
 gem "simple_form", "~> 5.1.0"
